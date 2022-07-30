@@ -79,8 +79,65 @@ DELETE `http://localhost:5001/api/v1/closeBankAccount/0266c886-8267-4e9c-96ed-3d
 <img width="410" alt="Screenshot 2022-07-30 at 3 08 35 PM" src="https://user-images.githubusercontent.com/54174687/181904712-3a9ea97a-a6e1-4248-9ef0-93b4ee7dc527.png">
 <img width="1189" alt="Screenshot 2022-07-30 at 3 09 12 PM" src="https://user-images.githubusercontent.com/54174687/181904713-9b4d1c2a-b912-46ee-98e7-4b0909f72a3e.png">
 
+--------
 
+# Account Lookup
 
+GET -> `http://localhost:5002/api/v1/bankAccountLookup/`
+
+Response:
+
+```json
+{
+    "message": "Successfully returned 2 bank account(s)!",
+    "accounts": [
+        {
+            "id": "9e9e8bf3-65a7-4d6c-9ac1-de79c52017a7",
+            "accountHolder": "Jane Doe",
+            "creationDate": "2022-07-30T09:44:06.971+00:00",
+            "accountType": "CURRENT",
+            "balance": 200.0
+        },
+        {
+            "id": "fc949c5e-a3ec-4b2a-ad75-eeed3a150998",
+            "accountHolder": "Mike Doe",
+            "creationDate": "2022-07-30T09:44:15.761+00:00",
+            "accountType": "SAVINGS",
+            "balance": 300.0
+        }
+    ]
+}
+```
+
+-------
+
+# Find By Account Id
+
+GET -> `http://localhost:5002/api/v1/bankAccountLookup/byId/9e9e8bf3-65a7-4d6c-9ac1-de79c52017a7`
+
+Response:
+
+```json
+{
+    "message": "Successfully returned bank account!",
+    "accounts": [
+        {
+            "id": "9e9e8bf3-65a7-4d6c-9ac1-de79c52017a7",
+            "accountHolder": "Jane Doe",
+            "creationDate": "2022-07-30T09:44:06.971+00:00",
+            "accountType": "CURRENT",
+            "balance": 200.0
+        }
+    ]
+}
+```
+------
+
+# Find By Account Holder Id
+
+GET -> `http://localhost:5002/api/v1/bankAccountLookup/byHolder/Jane Doe`
+
+GET -> `http://localhost:5002/api/v1/bankAccountLookup/withBalance/GREATER_THAN/50`
 
 
 
