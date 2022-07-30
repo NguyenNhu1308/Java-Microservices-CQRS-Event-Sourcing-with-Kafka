@@ -28,3 +28,26 @@ Response:
 
 -----
 
+# Depost Funds
+
+```sh
+curl --location --request PUT 'http://localhost:5001/api/v1/depositFunds/0266c886-8267-4e9c-96ed-3dfb66aac4c4' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "amount": 150.0
+}'
+```
+
+Response:
+
+```json
+{
+    "message": "Deposit funds request completed successfully!"
+}
+```
+<img width="1031" alt="Screenshot 2022-07-30 at 2 47 43 PM" src="https://user-images.githubusercontent.com/54174687/181904049-776f72f8-1773-46b8-a4ef-b19f6aafb84a.png">
+<img width="829" alt="Screenshot 2022-07-30 at 2 47 54 PM" src="https://user-images.githubusercontent.com/54174687/181904054-73de81fc-e958-44ad-a32d-faa8dd121403.png">
+<img width="1189" alt="Screenshot 2022-07-30 at 2 49 04 PM" src="https://user-images.githubusercontent.com/54174687/181904055-554f2756-14e8-4ea7-9bdd-3078e13cf400.png">
+
+<img width="903" alt="Screenshot 2022-07-30 at 2 47 25 PM" src="https://user-images.githubusercontent.com/54174687/181904044-e152a4b6-f3c3-4631-8f3a-f883cc276769.png">
+
