@@ -69,6 +69,16 @@ Response:
 <img width="1032" alt="Screenshot 2022-07-30 at 2 56 21 PM" src="https://user-images.githubusercontent.com/54174687/181904548-e1917d08-3e02-4f1b-a222-5c3ba6340540.png">
 <img width="685" alt="Screenshot 2022-07-30 at 3 04 24 PM" src="https://user-images.githubusercontent.com/54174687/181904551-9cb93ef7-f4af-4a83-9b77-575d91f34478.png">
 
+--------
+
+# Close Account
+
+DELETE `http://localhost:5001/api/v1/closeBankAccount/0266c886-8267-4e9c-96ed-3dfb66aac4c4`
+
+<img width="1066" alt="Screenshot 2022-07-30 at 3 08 22 PM" src="https://user-images.githubusercontent.com/54174687/181904707-851f90ed-bf31-46de-a036-2f8770120491.png">
+<img width="410" alt="Screenshot 2022-07-30 at 3 08 35 PM" src="https://user-images.githubusercontent.com/54174687/181904712-3a9ea97a-a6e1-4248-9ef0-93b4ee7dc527.png">
+<img width="1189" alt="Screenshot 2022-07-30 at 3 09 12 PM" src="https://user-images.githubusercontent.com/54174687/181904713-9b4d1c2a-b912-46ee-98e7-4b0909f72a3e.png">
+
 
 
 
