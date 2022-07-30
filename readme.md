@@ -2,6 +2,7 @@
 
 ![1](https://user-images.githubusercontent.com/54174687/181909157-8e94e67a-b106-415a-ac40-efe514c89e96.png)
 
+You can point to Postgres DB (treat as a read db)
 
 # Open Bank Account
 
