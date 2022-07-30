@@ -139,5 +139,9 @@ GET -> `http://localhost:5002/api/v1/bankAccountLookup/byHolder/Jane Doe`
 
 GET -> `http://localhost:5002/api/v1/bankAccountLookup/withBalance/GREATER_THAN/50`
 
+-----
 
+# Restore Read DB
+
+GET -> `http://localhost:5001/api/v1/restoreReadDb`
 
