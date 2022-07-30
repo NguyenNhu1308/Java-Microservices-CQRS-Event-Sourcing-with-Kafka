@@ -1,5 +1,8 @@
 # Java-Microservices-CQRS-Event-Sourcing-with-Kafka
 
+![1](https://user-images.githubusercontent.com/54174687/181909157-8e94e67a-b106-415a-ac40-efe514c89e96.png)
+
+
 # Open Bank Account
 
 ```sh
