@@ -10,4 +10,5 @@ class CommandApplicationTests {
 	void contextLoads() {
 	}
 
+
 }
